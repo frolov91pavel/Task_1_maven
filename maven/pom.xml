@@ -6,12 +6,8 @@
 
     <groupId>ru.netology</groupId>
     <artifactId>maven</artifactId>
+    <packaging>pom</packaging>
     <version>1.0-SNAPSHOT</version>
-
-    <properties>
-        <maven.compiler.source>17</maven.compiler.source>
-        <maven.compiler.target>17</maven.compiler.target>
-    </properties>
 
     <modules>
         <module>db</module>
@@ -19,6 +15,9 @@
         <module>service</module>
     </modules>
 
-    <packaging>pom</packaging>
+    <properties>
+        <maven.compiler.source>17</maven.compiler.source>
+        <maven.compiler.target>17</maven.compiler.target>
+    </properties>
 
 </project>
